@@ -1,0 +1,69 @@
+#main {
+    background-color: rgb(88, 27, 88);
+}
+
+.nav-item {
+    margin-left: 1rem;
+    color: white;
+}
+
+nav {
+    background-color: rgb(88, 27, 88);
+}
+
+.navbar-brand {
+    color: white;
+}
+
+.nav-item a {
+    color: white;
+    font-size: large;
+}
+
+.fa-virus {
+    transition: all linear;
+    animation: rot 3s linear infinite;
+}
+
+@keyframes rot {
+    0% {
+        transform: rotate(0deg);
+    }
+    100% {
+        transform: rotate(360deg);
+    }
+}
+
+.navbar-brand:hover {
+    color: white;
+}
+
+.navbar-toggler {
+    background-color: rgb(2, 2, 2);
+}
+
+.navbar-toggler-icon {
+    color: white;
+}
+
+
+/* footer css */
+
+.App {
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+#foot {
+    margin-top: auto;
+    background-color: rgb(88, 27, 88);
+}
+
+#foot p {
+    text-align: center;
+    line-height: 3.5rem;
+    margin: 0;
+    color: white;
+}

@@ -1,0 +1,102 @@
+#left {
+    margin-top: 3.5rem;
+}
+
+#left-about {
+    margin-top: 3rem;
+    text-align: center;
+}
+
+#pre {
+    animation-name: scale;
+    animation-duration: 3s;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+}
+
+@keyframes scale {
+    0% {
+        transform: scale(1);
+    }
+    50% {
+        transform: scale(0.8);
+    }
+    100% {
+        transform: scale(1);
+    }
+}
+
+#right {
+    margin-top: 10rem;
+    text-align: center;
+}
+
+#right-about {
+    margin-top: 8rem;
+}
+
+#right-about ul {
+    font-size: 25px;
+    margin-top: 2rem;
+}
+
+#right-about h1 {
+    font-size: 45px;
+    text-align: center;
+}
+
+@media screen and (max-width: 770px) {
+    #left {
+        margin-top: 2rem;
+    }
+    #left-about {
+        margin-top: 1rem;
+    }
+    #right {
+        margin-top: 4rem;
+    }
+    #right h1 {
+        font-size: 2.2rem;
+    }
+    #right-about {
+        margin-top: 3rem;
+    }
+}
+
+
+/* covid css */
+
+#rowss {
+    display: flex;
+    justify-content: space-around;
+    margin-Top: 2.3rem;
+}
+
+#rowss2 {
+    border: 2px solid lightgray;
+    height: 13rem;
+    width: 19rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    border-radius: 2rem;
+    background-color: lightgray;
+}
+
+@media screen and (max-width: 500px) {
+    #rowss {
+        flex-direction: column;
+        align-items: center;
+    }
+    #rowss2 {
+        margin-top: 2rem;
+        height: 10rem;
+        width: 15rem;
+    }
+}
+
+#rowss2 h1 {
+    text-shadow: 4px 4px rgb(148, 148, 148);
+}
